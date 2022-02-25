@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "configsystem"
+version = "0.1.0"
+description = "Configuration Syste"
+authors = ["David Groves"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
